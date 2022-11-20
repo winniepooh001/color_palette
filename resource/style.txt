@@ -1,0 +1,35 @@
+
+QLabel#windowTitle {{
+    background-color: {dark_1};
+    color: {text_color};
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 17px;
+    border: 0px solid transparent;
+    border-right: 3px solid {context_color};
+    font: 800 15pt "{font}";
+}}
+
+QLabel {{
+    color: #50616D;
+    font: 12pt "{font}";
+}}
+CollapsibleBox QLabel {{
+    font: 10pt;
+}}
+CollapsibleBox QToolButton {{
+    font: 500 12pt "{font}"
+}}
+labelleedCombo {{
+    font: 200 12pt "{font}";
+}}
+QToolTip  {{
+    background-color: {dark_1};
+    color: {text_color};
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 17px;
+    border: 0px solid transparent;
+    border-right: 3px solid {context_color};
+    font: 800 9pt "{font}";
+}}
